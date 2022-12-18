@@ -20,7 +20,7 @@ public class test1 {
 	   WebDriver driver =new ChromeDriver();
 		driver.manage().window().maximize();
 		 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		driver.get("https://demo.facabook.com/");
+		driver.get("https://demo.google.com/");
 	   
    }
    @Test
